@@ -1,0 +1,23 @@
+Round function 
+
+In Python, the built-in round() function is used to round a number to a specified number of digits after the decimal point. Here's how you can use it:
+
+
+######Code######
+# Syntax: round(number, ndigits)
+# number: The number to be rounded.
+# ndigits: The number of digits to round to (optional, default is 0).
+
+# Example usage:
+x = 3.14159
+rounded_x = round(x)  # Rounds to the nearest integer
+print(rounded_x)  # Output: 3
+
+y = 3.14159
+rounded_y = round(y, 2)  # Rounds to 2 decimal places
+print(rounded_y)  # Output: 3.14
+In the first example, round(x) rounds the number x to the nearest integer. In the second example, round(y, 2) rounds the number y to 2 decimal places.
+
+If ndigits is not provided, round() returns the nearest integer to the input.
+If ndigits is specified, the number is rounded to that many digits after the decimal point.
+If ndigits is negative, the number is rounded to the nearest multiple of 10 to the power of ndigits.
