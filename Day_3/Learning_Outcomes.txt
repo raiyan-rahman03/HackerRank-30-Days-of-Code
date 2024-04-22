@@ -1,0 +1,11 @@
+**Nested Loop**
+
+**We have to define the Variable before using it **
+Here:
+
+if __name__ == '__main__':
+    N = int(input().strip())
+
+
+This is deffined before being used in Nested Loop   
+unless name is not deffined Error occures 
