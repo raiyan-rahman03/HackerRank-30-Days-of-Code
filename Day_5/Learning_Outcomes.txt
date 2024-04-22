@@ -1,0 +1,17 @@
+**f strings**
+
+
+
+This line of code is using an f-string, which is a feature introduced in Python 3.6. An f-string allows you to embed expressions inside string literals, prefixed with an 'f' or 'F', and these expressions will be replaced with their values when the string is evaluated.
+
+In the line you provided:
+
+##Code##
+
+print(f"{n} x {i} = {a}")
+
+
+{n}, {i}, and {a} are placeholders within the f-string.
+n, i, and a are variables whose values will be inserted into the string at those respective locations.
+The expression within the curly braces {} will be evaluated and replaced with the corresponding values.
+So, when this line of code executes, it will print the value of n followed by " x ", then the value of i, followed by " = ", and finally, the value of a. It's a concise way to format strings with variable values in Python.
