@@ -1,0 +1,25 @@
+**about constructor**
+**about Object**
+
+
+In Python, a constructor is a special method within a class that is automatically invoked when a new instance of the class is created. It is typically named __init__. The purpose of the constructor is to initialize the object's attributes or perform any setup that's necessary before the object can be used.
+
+Here's a simple example of a class with a constructor in Python:
+
+##### code####
+class MyClass:
+    def __init__(self, arg1, arg2):
+        self.attribute1 = arg1
+        self.attribute2 = arg2
+
+# Creating an instance of MyClass
+obj = MyClass(10, "hello")
+
+# Accessing attributes of the instance
+print(obj.attribute1)  # Output: 10
+print(obj.attribute2)  # Output: hello
+In this example, the __init__ method is the constructor. It takes self (which refers to the instance being created) as its first argument, followed by any other arguments you want to pass when creating an instance of the class. Inside the constructor, you typically set the initial values of the object's attributes using self.attribute_name = value.
+
+
+
+
